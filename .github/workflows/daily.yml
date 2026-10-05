@@ -1,0 +1,19 @@
+name: daily
+on:
+  schedule:
+    - cron: "0 13 * * *"   # 21:00 Asia/Shanghai, year-round
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 nba.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "nba: $(date -u +%F) update"
+          git push
