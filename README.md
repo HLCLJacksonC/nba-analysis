@@ -1,6 +1,6 @@
 # NBA Elo Tracker
 
-_Preseason · 3 games through 20261004 · updated 2026-10-05 01:38Z_
+_Preseason · 3 games through 20261004 · updated 2026-10-05 01:39Z_
 
 Elo: K=20, home-court +100, everyone starts at 1500. Data from ESPN's public scoreboard API. Full game log in [games.csv](games.csv).
 
