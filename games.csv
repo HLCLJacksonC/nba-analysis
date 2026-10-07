@@ -7,10 +7,7 @@ game_id,date,season_type,home,home_pts,away,away_pts
 401908947,20261005,preseason,DET,109,PHX,107
 401914101,20261005,preseason,PHI,120,NY,97
 401914102,20261005,preseason,MIL,97,MIN,116
-<<<<<<< Updated upstream
-=======
 401898389,20261006,preseason,OKC,110,NO,116
 401898390,20261006,preseason,GS,124,LAL,98
 401901820,20261006,preseason,CHA,90,BKN,124
 401914128,20261006,preseason,UTAH,106,DEN,117
->>>>>>> Stashed changes

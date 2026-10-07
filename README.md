@@ -1,33 +1,12 @@
 # NBA Elo Tracker
 
-<<<<<<< Updated upstream
-_Preseason · 8 games through 20261005 · updated 2026-10-06 18:43Z_
-=======
 _Preseason · 12 games through 20261006 · updated 20261007_
->>>>>>> Stashed changes
 
 Elo: K=20, home-court +100, everyone starts at 1500. Data from ESPN's public scoreboard API. Game log: [games.csv](games.csv) · daily rating snapshots: [elo_history.csv](elo_history.csv).
 
 | # | Team | Elo | 7d | W-L | PPG | OPP PPG | Diff |
 |--:|:--|--:|--:|:--:|--:|--:|--:|
 | 1 | MIA | 1513 | – | 1-0 | 129.0 | 105.0 | +24.0 |
-<<<<<<< Updated upstream
-| 2 | UTAH | 1513 | – | 1-0 | 109.0 | 97.0 | +12.0 |
-| 3 | MEM | 1513 | – | 1-0 | 132.0 | 123.0 | +9.0 |
-| 4 | LAL | 1513 | – | 1-0 | 127.0 | 103.0 | +24.0 |
-| 5 | MIN | 1513 | – | 1-0 | 116.0 | 97.0 | +19.0 |
-| 6 | LAC | 1507 | – | 1-0 | 104.0 | 101.0 | +3.0 |
-| 7 | DET | 1507 | – | 1-0 | 109.0 | 107.0 | +2.0 |
-| 8 | PHI | 1507 | – | 1-0 | 120.0 | 97.0 | +23.0 |
-| 9 | GS | 1493 | – | 0-1 | 101.0 | 104.0 | -3.0 |
-| 10 | PHX | 1493 | – | 0-1 | 107.0 | 109.0 | -2.0 |
-| 11 | NY | 1493 | – | 0-1 | 97.0 | 120.0 | -23.0 |
-| 12 | TOR | 1487 | – | 0-1 | 105.0 | 129.0 | -24.0 |
-| 13 | DEN | 1487 | – | 0-1 | 97.0 | 109.0 | -12.0 |
-| 14 | ATL | 1487 | – | 0-1 | 123.0 | 132.0 | -9.0 |
-| 15 | SAC | 1487 | – | 0-1 | 103.0 | 127.0 | -24.0 |
-| 16 | MIL | 1487 | – | 0-1 | 97.0 | 116.0 | -19.0 |
-=======
 | 2 | MEM | 1513 | – | 1-0 | 132.0 | 123.0 | +9.0 |
 | 3 | MIN | 1513 | – | 1-0 | 116.0 | 97.0 | +19.0 |
 | 4 | NO | 1513 | – | 1-0 | 116.0 | 110.0 | +6.0 |
@@ -47,19 +26,15 @@ Elo: K=20, home-court +100, everyone starts at 1500. Data from ESPN's public sco
 | 18 | MIL | 1487 | – | 0-1 | 97.0 | 116.0 | -19.0 |
 | 19 | OKC | 1487 | – | 0-1 | 110.0 | 116.0 | -6.0 |
 | 20 | CHA | 1487 | – | 0-1 | 90.0 | 124.0 | -34.0 |
->>>>>>> Stashed changes
 
 ## Last 10 games
 
 | Date | Matchup | Score | Margin |
 |:--|:--|:--|--:|
-<<<<<<< Updated upstream
-=======
 | 20261006 | DEN @ UTAH | 117-106 | DEN by 11 |
 | 20261006 | BKN @ CHA | 124-90 | BKN by 34 |
 | 20261006 | LAL @ GS | 98-124 | GS by 26 |
 | 20261006 | NO @ OKC | 116-110 | NO by 6 |
->>>>>>> Stashed changes
 | 20261005 | MIN @ MIL | 116-97 | MIN by 19 |
 | 20261005 | NY @ PHI | 97-120 | PHI by 23 |
 | 20261005 | PHX @ DET | 107-109 | DET by 2 |

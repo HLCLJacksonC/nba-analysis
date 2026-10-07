@@ -185,9 +185,23 @@ def test():
     print("ok")
 
 
+def rebuild():
+    """Recompute elo_history.csv from games.csv. A snapshot dated D reflects
+    games played before D, matching what a live run on D would have written."""
+    rows = load()
+    SNAP.unlink(missing_ok=True)
+    for d in sorted({g["date"] for g in rows} | {datetime.now(ET).date().strftime("%Y%m%d")}):
+        prior = [g for g in rows if g["date"] < d]
+        if prior:
+            snapshot(prior, d)
+    print(f"rebuilt {SNAP.name} from {len(rows)} games")
+
+
 def main(argv):
     if "--test" in argv:
         return test()
+    if "--rebuild" in argv:
+        return rebuild()
     today = datetime.now(ET).date()
     if "--since" in argv:
         start = datetime.strptime(argv[argv.index("--since") + 1], "%Y%m%d").date()
