@@ -126,7 +126,7 @@ def report(all_rows, hist=(), today=""):
 
     out = ["# NBA Elo Tracker", "",
            f"_{label} · {len(rows)} games through {rows[-1]['date'] if rows else 'n/a'} · "
-           f"updated {datetime.now(timezone.utc):%Y-%m-%d %H:%MZ}_", "",
+           f"updated {today or 'n/a'}_", "",
            "Elo: K=20, home-court +100, everyone starts at 1500. "
            "Data from ESPN's public scoreboard API. "
            "Game log: [games.csv](games.csv) · daily rating snapshots: "
