@@ -66,3 +66,6 @@ game_id,date,season_type,home,home_pts,away,away_pts
 401908946,20261016,preseason,DET,129,TOR,125
 401908948,20261016,preseason,PHX,116,UTAH,119
 401914126,20261016,preseason,IND,127,MIL,128
+401909088,20261020,regular-season,DET,121,BOS,113
+401909089,20261020,regular-season,NY,100,PHI,106
+401909090,20261020,regular-season,SA,104,OKC,116
