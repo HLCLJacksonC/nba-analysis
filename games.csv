@@ -154,3 +154,7 @@ game_id,date,season_type,home,home_pts,away,away_pts
 401909900,20261031,regular-season,MIL,111,CLE,136
 401909901,20261031,regular-season,SA,121,MIN,111
 401909902,20261031,regular-season,HOU,119,OKC,98
+401909903,20261101,regular-season,ORL,97,BOS,108
+401909904,20261101,regular-season,IND,90,BKN,98
+401909905,20261101,regular-season,GS,124,LAC,112
+401909906,20261101,regular-season,LAL,131,TOR,125
