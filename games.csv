@@ -236,3 +236,7 @@ game_id,date,season_type,home,home_pts,away,away_pts
 401909973,20261111,regular-season,UTAH,108,ORL,123
 401909974,20261111,regular-season,HOU,115,GS,108
 401909975,20261111,regular-season,POR,118,OKC,108
+401909976,20261112,regular-season,PHI,123,TOR,112
+401909977,20261112,regular-season,WSH,140,DET,144
+401909978,20261112,regular-season,MIN,133,DAL,94
+401909979,20261112,regular-season,PHX,101,CHA,96
