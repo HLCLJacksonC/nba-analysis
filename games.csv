@@ -288,3 +288,7 @@ game_id,date,season_type,home,home_pts,away,away_pts
 401910016,20261118,regular-season,DAL,116,GS,94
 401910017,20261118,regular-season,LAL,97,UTAH,109
 401910018,20261118,regular-season,SAC,107,PHX,128
+401910019,20261119,regular-season,MEM,126,GS,98
+401910020,20261119,regular-season,MIL,114,POR,124
+401910021,20261119,regular-season,MIN,99,NY,102
+401910022,20261119,regular-season,SA,124,LAC,112
